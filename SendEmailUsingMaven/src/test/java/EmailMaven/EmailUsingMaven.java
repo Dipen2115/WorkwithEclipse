@@ -1,5 +1,6 @@
 package EmailMaven;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -23,7 +24,7 @@ public class EmailUsingMaven {
 		c=a+b;
 		Assert.assertEquals(c, 6);
 	
-/*		System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://dev.monyoo.com/");
 		driver.manage().window().maximize();
@@ -36,7 +37,7 @@ public class EmailUsingMaven {
 		driver.findElement(By.cssSelector("div.form-check label")).click();
 		driver.findElement(By.cssSelector("form#SigninForm button[value='submit']")).click();
 		Thread.sleep(4000);
-*/		
+		
 		logger.log(LogStatus.PASS, "Logged into the Platform");
 		report.endTest(logger);
 		report.flush();
