@@ -17,7 +17,7 @@ public class EmailUsingMaven {
 	public void verifyLogin() throws InterruptedException {
 		report = new ExtentReports("./Reports/TestReport.html");
 		logger = report.startTest("VerifyLogin");
-		logger.log(LogStatus.INFO, "Login started");
+		logger.log(LogStatus.INFO, "Login is started");
 		
 		int a=5,b=3,c;
 		c=a+b;
