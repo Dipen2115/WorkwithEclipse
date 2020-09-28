@@ -19,9 +19,9 @@ public class EmailUsingMaven {
 		logger = report.startTest("VerifyLogin");
 		logger.log(LogStatus.INFO, "Login is started");
 		
-		int a=5,b=3,c;
+		int a=2,b=4,c;
 		c=a+b;
-		Assert.assertEquals(c, 8);
+		Assert.assertEquals(c, 6);
 	
 /*		System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
