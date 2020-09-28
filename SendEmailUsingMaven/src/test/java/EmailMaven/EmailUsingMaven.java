@@ -37,7 +37,7 @@ public class EmailUsingMaven {
 		driver.findElement(By.cssSelector("form#SigninForm button[value='submit']")).click();
 		Thread.sleep(4000);
 */		
-		logger.log(LogStatus.PASS, "Logged into the Monyoo");
+		logger.log(LogStatus.PASS, "Logged into the Platform");
 		report.endTest(logger);
 		report.flush();
 	}
